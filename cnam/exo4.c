@@ -4,7 +4,7 @@
 
 #define MAX 10
 
-int main(void) {
+int main444(void) {
 	int n, sum = 0;
 	int arr[MAX];
 

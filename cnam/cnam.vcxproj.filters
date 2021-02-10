@@ -39,12 +39,18 @@
     <ClCompile Include="utils.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="tablo_int.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\drive-download-20210208T095058Z-001\module.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="utils.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="tablo_int.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

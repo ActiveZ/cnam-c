@@ -146,10 +146,12 @@
     <ClCompile Include="exo3.c" />
     <ClCompile Include="exo4.c" />
     <ClCompile Include="exo5.c" />
+    <ClCompile Include="tablo_int.c" />
     <ClCompile Include="utils.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\drive-download-20210208T095058Z-001\module.h" />
+    <ClInclude Include="tablo_int.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

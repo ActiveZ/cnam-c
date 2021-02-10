@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+//#include <string.h>
 
 #include "utils.h"
 #include "tablo_int.h"
@@ -15,7 +16,6 @@ int main55(void) {
 	while ((c = getchar()) != '\n') {
 		putchar(to_upper_case(c));
 	}
-
 	putchar('\n');
 
 	return EXIT_SUCCESS;
@@ -23,6 +23,15 @@ int main55(void) {
 
 
 int main() {
+	char buf[] = "abc";
+	char* p = buf;
+
+	printf("%s %s %i %i\n", buf, p, sizeof(buf), strlen(buf));
+
+	printf("%i %i %i", strcmp("aab", "aaa"),strcmp("aaa", "aaa"),strcmp("aaa", "aab"));
+
+	return 0;
+
 	int t[10];
 	int t_cible[10];
 

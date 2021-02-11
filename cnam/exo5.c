@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-//#include <string.h>
+#include <string.h>
 
 #include "utils.h"
 #include "tablo_int.h"
@@ -22,13 +22,15 @@ int main55(void) {
 }
 
 
-int main() {
+int main555() {
 	char buf[] = "abc";
 	char* p = buf;
 
-	printf("%s %s %i %i\n", buf, p, sizeof(buf), strlen(buf));
+	printf("%s %s %zi %zi\n", buf, p, sizeof(buf), strlen(buf));
 
 	printf("%i %i %i", strcmp("aab", "aaa"),strcmp("aaa", "aaa"),strcmp("aaa", "aab"));
+
+	//printf("%s %s");
 
 	return 0;
 

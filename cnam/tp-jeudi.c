@@ -17,6 +17,5 @@ int main(void) {
 	trier_tab_char(tab,taille);
 	printf("tableau trie:\n");
 	afficher_tab_char(tab, taille);
-
 	return EXIT_SUCCESS;
 }
